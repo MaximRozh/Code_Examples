@@ -1,0 +1,4 @@
+[{"login":"admin","password":"admin", "name":"Max", "surname":"Rozhanskiy","id":1},
+    {"login":"user","password":"user", "name":"Valeriya", "surname":"Brushnevska","id":2},
+    {"login":"guest","password":"guest", "name":"Ivan", "surname":"Ivanov","id":3}
+]

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 40%;
+            padding: 15px 10px;
+            border: 2px solid black;
+            margin: 0 0 20px 0;
+        }
+
+        .container button {
+            width: 20%;
+        }
+
+        .btnCS {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btnCS button {
+            margin: 0 20px;
+            padding: 10px;
+        }
+
+        .add {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 30px;
+            background: plum;
+        }
+
+        .add button {
+            width: 70%;
+            margin: 20px;
+            color: seagreen;
+            font-weight: bold;
+            transition: all 0.5s ease;
+        }
+
+        .add button:hover {
+            background: springgreen;
+            color: tomato;
+            transform: scale(1.1);
+        }
+    </style>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h3>id: count1</h3>
+            <span class="counter" id="count1">0</span>
+            <button class="buttonClick" data-action='counter'>click</button>
+        </div>
+    </div>
+    <div class="btnCS">
+        <button class="clear">Clear all counters</button>
+        <button class="set">Set counter</button>
+    </div>
+    <div class="add">
+        <button class="addElem">Add Block</button>
+        <button class="deleteElem">Delete Block</button>
+    </div>
+</body>
+
+</html>
